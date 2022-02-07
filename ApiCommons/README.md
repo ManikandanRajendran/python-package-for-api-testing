@@ -8,7 +8,7 @@
 ----------------
 
 ```
-pip install commonsApi==<version>
+pip install commonsApi
 ```
 
 ## Methods available
