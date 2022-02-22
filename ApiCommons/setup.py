@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-import codecs
+import codecs, sys
 
 
 try:
@@ -18,7 +18,7 @@ classifiers=[
 
 setup(
     name="commonsApi",
-    version="1.0.1",
+    version="1.0.2",
     description="This is a package to automate apis in a simple way by using common reusable functions",
     long_description = readme_contents,
     long_description_content_type='text/markdown',
@@ -27,7 +27,7 @@ setup(
     author_email="r.manikandan.king@gmail.com",
     license="MIT",
     classifiers=classifiers,
-    keywords=["api automation", "api testing", "api commons", "python api"],
+    keywords=["api automation", "api testing", "api commons", "python api", "api automation using python"],
     packages=find_packages(),
     install_requires=[
         "jsonschema==4.4.0",
